@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3000D002C40FB7B00389862 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3000CFF2C40FB7B00389862 /* GameOverView.swift */; };
 		F32E58962C4007200009D966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32E58952C4007200009D966 /* AppDelegate.swift */; };
 		F32E58982C4007200009D966 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32E58972C4007200009D966 /* ContentView.swift */; };
 		F32E589A2C4007220009D966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F32E58992C4007220009D966 /* Assets.xcassets */; };
 		F32E589D2C4007220009D966 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F32E589C2C4007220009D966 /* Preview Assets.xcassets */; };
+		F32E58A42C40075F0009D966 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32E58A32C40075F0009D966 /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F3000CFF2C40FB7B00389862 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
 		F32E58922C4007200009D966 /* AR-Physics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR-Physics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F32E58952C4007200009D966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F32E58972C4007200009D966 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F32E58992C4007220009D966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F32E589C2C4007220009D966 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F32E58A32C40075F0009D966 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +57,10 @@
 			children = (
 				F32E58952C4007200009D966 /* AppDelegate.swift */,
 				F32E58972C4007200009D966 /* ContentView.swift */,
+				F32E58A32C40075F0009D966 /* Coordinator.swift */,
 				F32E58992C4007220009D966 /* Assets.xcassets */,
 				F32E589B2C4007220009D966 /* Preview Content */,
+				F3000CFF2C40FB7B00389862 /* GameOverView.swift */,
 			);
 			path = "AR-Physics";
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			files = (
 				F32E58982C4007200009D966 /* ContentView.swift in Sources */,
 				F32E58962C4007200009D966 /* AppDelegate.swift in Sources */,
+				F3000D002C40FB7B00389862 /* GameOverView.swift in Sources */,
+				F32E58A42C40075F0009D966 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
